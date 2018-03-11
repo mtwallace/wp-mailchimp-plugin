@@ -1,7 +1,7 @@
 
 <?php 
 /**
- * Plugin Name: MailChimp Newsletter Sign Up
+ * Plugin Name: Custom MailChimp Newsletter Signup
  * Description: This is a plugin that allows us to sign up users to the CraftJack Newsletter
  * Version: 1.0.0
  * Author: Matthew Wallace
