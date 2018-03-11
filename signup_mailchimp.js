@@ -23,7 +23,7 @@ $(document).ready(function () {
 			mailchimp(email, 'mc_update_user');
 			console.log('Your email status has been updated to subscribed.');
 		} else if (data.status == 'subscribed') {
-			console.log('You are already subscribed to this newsletter.').addClass('error');
+			console.log('You are already subscribed to this newsletter.');
 		}
 	});
 
