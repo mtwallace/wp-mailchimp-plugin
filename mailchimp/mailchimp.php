@@ -6,8 +6,8 @@
  * Version: 1.0.0
  * Author: Matthew Wallace
  */
-$GLOBALS['key'] = '88f715d4bf4cc419686c485b3c57be7e-us2';
-$GLOBALS['list_id'] = 'cbf96e830d';
+$GLOBALS['key'] = 'xxxxxxxxxx';
+$GLOBALS['list_id'] = 'xxxxxxxxxx';
 $GLOBALS['server'] = 'us2';
 
 add_action( 'wp_enqueue_scripts', 'mailchimp_scripts' );
