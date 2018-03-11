@@ -1,6 +1,6 @@
 $(document).ready(function () {
     var form = $('#your-form-here');
-    var email = $('#email').val();
+    var email = $('#email-input-here').val();
     
     form.on('submit', function(event) {
         var check = mailchimp(email, 'mc_check_subscription_status');
