@@ -14,7 +14,7 @@ add_action( 'wp_enqueue_scripts', 'mailchimp_scripts' );
 
 function mailchimp_scripts() {
 	
-	wp_enqueue_script( 'mc_ajax',get_stylesheet_directory_uri() . '/js/mailchimp.js' , array('jquery'), '1.0', true );
+	wp_enqueue_script( 'mc_ajax',get_stylesheet_directory_uri() . '/js/signup_mailchimp.js' , array('jquery'), '1.0', true );
 
 	wp_localize_script( 'mc_ajax', 'postmc', array(
 		'ajax_url' => admin_url( 'admin-ajax.php' )
